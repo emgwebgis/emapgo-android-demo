@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="指南针是否可用"
+            android:textColor="#0f0f0f"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/id_compass_enable"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            tools:checked="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="指南针位置"
+            android:textColor="#0f0f0f"
+            android:textSize="16sp" />
+        <Spinner
+            android:id="@+id/id_compass_gravity"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:entries="@array/gravity_arrays"></Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="指南针外边距"
+            android:textColor="#0f0f0f"
+            android:textSize="16sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <SeekBar
+                android:id="@+id/id_compass_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <SeekBar
+                android:id="@+id/id_compass_margin_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+            <SeekBar
+                android:id="@+id/id_compass_margin_right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+            <SeekBar
+                android:id="@+id/id_compass_margin_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <com.emapgo.mapsdk.maps.MapView
+        android:id="@+id/emgMapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:emg_cameraTargetLat="39.8288916490182"
+        app:emg_cameraTargetLng="116.29995507512434"
+        app:emg_cameraZoom="15"></com.emapgo.mapsdk.maps.MapView>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.emapgo.mapsdk.annotations.BubbleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:emg_bl_arrowDirection="bottom"
+    app:emg_bl_arrowHeight="8dp"
+    app:emg_bl_arrowPosition="16dp"
+    app:emg_bl_arrowWidth="8dp"
+    app:emg_bl_bubbleColor="@android:color/white"
+    app:emg_bl_cornersRadius="6dp"
+    app:emg_bl_strokeColor="@android:color/darker_gray"
+    app:emg_bl_strokeWidth="1dp">
+
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/id_route_poi_info_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="途经点1"
+            android:paddingLeft="5dp"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:layout_toLeftOf="@+id/id_route_poi_info_action_ll"/>
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:id="@+id/id_route_poi_info_remove"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#3878f0"
+            android:padding="5dp"
+            android:showDividers="middle"
+            >
+            <TextView
+                android:id="@+id/id_route_add_poi"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="删除途经点"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textColor="#ffffff"/>
+        </LinearLayout>        
+
+    </RelativeLayout>
+</com.emapgo.mapsdk.annotations.BubbleLayout>

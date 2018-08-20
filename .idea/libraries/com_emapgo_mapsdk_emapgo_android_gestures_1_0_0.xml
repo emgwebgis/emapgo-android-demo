@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.emapgo.mapsdk:emapgo-android-gestures-1.0.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/emapgo-android-gestures-1.0.0.aar/bcfafb7f7986d1cf91a0ede66b63630c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/emapgo-android-gestures-1.0.0.aar/bcfafb7f7986d1cf91a0ede66b63630c/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-android-gestures/1.0.0/1282c46b60695dc178910515204cb7373620111b/emapgo-android-gestures-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

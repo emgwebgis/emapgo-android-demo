@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="com.emapgo.mapsdk:emapgo-android-navigation-ui-0.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/emapgo-android-navigation-ui-0.0.1.aar/79ac1b085b56fa0e878f88905cc65665/jars/libs/Sunflower.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/emapgo-android-navigation-ui-0.0.1.aar/79ac1b085b56fa0e878f88905cc65665/jars/libs/Msc.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/emapgo-android-navigation-ui-0.0.1.aar/79ac1b085b56fa0e878f88905cc65665/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/emapgo-android-navigation-ui-0.0.1.aar/79ac1b085b56fa0e878f88905cc65665/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-android-navigation-ui/0.0.1/3a32bcf0c545d2dcc8e6bfe059e881ef254c520b/emapgo-android-navigation-ui-0.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

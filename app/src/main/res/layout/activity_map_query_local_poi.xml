@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/id_query_local_poi_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="输入关键字查询"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/id_query_local_poi_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询" />
+
+    <com.emapgo.mapsdk.maps.MapView
+        android:id="@+id/emgMapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:emg_cameraTargetLat="39.8288916490182"
+        app:emg_cameraTargetLng="116.29995507512434"
+        app:emg_cameraZoom="15"></com.emapgo.mapsdk.maps.MapView>
+</LinearLayout>

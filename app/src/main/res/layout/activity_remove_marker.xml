@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.emapgo.android.demo.activity.RemoveMarkerActivity">
+
+    <Button
+        android:id="@+id/id_marker_remove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除一个Marker" />
+
+    <Button
+        android:id="@+id/id_marker_remove_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除全部Marker" />
+
+    <com.emapgo.mapsdk.maps.MapView
+        android:id="@+id/emgMapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:emg_cameraTargetLat="39.91888696020796"
+        app:emg_cameraTargetLng="116.38722896575926"
+        app:emg_cameraZoom="8">
+
+    </com.emapgo.mapsdk.maps.MapView>
+
+</LinearLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.emapgo.android.demo">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.HelloEmgMapActivity"
+            android:label="@string/activity_title_name"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".activity.DrawListActivity"
+            android:label="@string/activity_draw_title" />
+        <activity android:name=".activity.PoiSearchActivity" />
+        <activity android:name=".activity.RouteActivity" />
+        <activity
+            android:name=".activity.DrawLineFromGeoJSONActivity"
+            android:label="@string/activity_draw_line_geojson_title" />
+        <activity
+            android:name=".activity.DrawLineActivity"
+            android:label="@string/activity_draw_line_title" />
+        <activity
+            android:name=".activity.AddMarkerActivity"
+            android:label="@string/activity_add_marker_title" />
+        <activity
+            android:name=".activity.RemoveMarkerActivity"
+            android:label="@string/activity_remove_marker_title" />
+        <activity
+            android:name=".activity.MarkerClickListenerActivity"
+            android:label="@string/activity_marker_click_title" />
+        <activity
+            android:name=".activity.CustomInfoWindowMarkerActivity"
+            android:label="@string/activity_marker_info_window_title" />
+        <activity
+            android:name=".activity.RuntimeListActivity"
+            android:label="@string/activity_runtime_styling_title" />
+        <activity
+            android:name=".activity.RuntimeRasterHillshadeLayerActivity"
+            android:label="@string/activity_runtime_hillshade_layer_title" />
+        <activity
+            android:name=".activity.DrawPolygonActivity"
+            android:label="@string/activity_draw_polygon_title" />
+        <activity
+            android:name=".activity.RuntimeWMSActivity"
+            android:label="@string/activity_runtime_wms_title" />
+        <activity
+            android:name=".activity.RuntimeImageActivity"
+            android:label="@string/activity_runtime_image_title" />
+        <activity
+            android:name=".activity.RuntimeFillLayerActivity"
+            android:label="@string/activity_runtime_fill_layer_title" />
+        <activity
+            android:name=".activity.RuntimeBackgroundLayerActivity"
+            android:label="@string/activity_runtime_background_layer_title" />
+        <activity
+            android:name=".activity.RuntimeLineLayerActivity"
+            android:label="@string/activity_runtime_line_layer_title" />
+        <activity
+            android:name=".activity.RuntimeSymbolLayerActivity"
+            android:label="@string/activity_runtime_symbol_layer_title" />
+        <activity
+            android:name=".activity.MapComponentListActivity"
+            android:label="@string/activity_map_component_title" />
+        <activity
+            android:name=".activity.MapEventListActivity"
+            android:label="@string/activity_map_event_title" />
+        <activity
+            android:name=".activity.MapCameraListActivity"
+            android:label="@string/activity_map_camera_title" />
+        <activity
+            android:name=".activity.MapComponentLogoActivity"
+            android:label="@string/activity_map_component_logo_title" />
+        <activity
+            android:name=".activity.MapComponentZoomControlsActivity"
+            android:label="@string/activity_map_component_zoom_title" />
+        <activity
+            android:name=".activity.MapComponentCompassActivity"
+            android:label="@string/activity_map_component_compass_title" />
+        <activity
+            android:name=".activity.MapComponentScaleBarActivity"
+            android:label="@string/activity_map_component_scale_title" />
+        <activity
+            android:name=".activity.MapEventGesturesActivity"
+            android:label="@string/activity_map_event_gestures_title" />
+        <activity
+            android:name=".activity.MapCameraMoveActivity"
+            android:label="@string/activity_map_camera_move_title" />
+        <activity
+            android:name=".activity.MapCameraBoundsActivity"
+            android:label="@string/activity_map_camera_bounds_title" />
+        <activity
+            android:name=".activity.LocationListActivity"
+            android:label="@string/activity_map_location_title" />
+        <activity
+            android:name=".activity.LocationSimpleActivity"
+            android:label="@string/activity_map_location_simple_title" />
+        <activity
+            android:name=".activity.LocationLayerModeActivity"
+            android:label="@string/activity_map_location_layer_mode_title" />
+        <activity
+            android:name=".activity.RuntimeHeatmapLayerActivity"
+            android:label="@string/activity_runtime_heatmap_layer_title" />
+        <activity
+            android:name=".activity.RuntimeClustersActivity"
+            android:label="@string/activity_runtime_clusters_title" />
+        <activity
+            android:name=".activity.RuntimeImageSourceTimeLapseActivity"
+            android:label="@string/activity_runtime_image_time_title" />
+        <activity
+            android:name=".activity.MapQueryListActivity"
+            android:label="@string/activity_map_poi_title" />
+        <activity
+            android:name=".activity.MapQueryFeatureActivity"
+            android:label="@string/activity_map_query_feature_title" />
+        <activity
+            android:name=".activity.MapQueryLocalPoiActivity"
+            android:label="@string/activity_map_query_local_poi_title" />
+        <activity
+            android:name=".activity.LocationModelActivity"
+            android:label="@string/activity_map_location_model_title" />
+        <activity
+            android:name=".activity.RuntimeColorSwitcherActivity"
+            android:label="@string/activity_runtime_color_switcher_title" />
+        <activity
+            android:name=".activity.RuntimeZoomDependentFillColorActivity"
+            android:label="@string/activity_runtime_zoom_color_title" />
+        <activity
+            android:name=".activity.MapThreeStereoscopicListActivity"
+            android:label="@string/activity_map_3d_title" />
+        <activity
+            android:name=".activity.MapThreeStereoscopicIndoor3DActivity"
+            android:label="@string/activity_map_3d_indoor_title" />
+        <activity
+            android:name=".activity.MapThreeStereoscopicMarathonActivity"
+            android:label="@string/activity_map_3d_marathon_title" />
+        <activity
+            android:name=".activity.MapThreeStereoscopicPopulationDensityActivity"
+            android:label="@string/activity_map_3d_population_density_title" />
+        <activity
+            android:name=".activity.RuntimeBlackMapActivity"
+            android:label="@string/activity_runtime_black_map_title" />
+        <activity
+            android:name=".activity.DrawMarkerFollowingRouteActivity"
+            android:label="@string/activity_draw_marker_following_title" />
+        <activity
+            android:name=".activity.RuntimeInsetMapActivity"
+            android:label="@string/activity_runtime_inset_map_title" />
+        <activity
+            android:name=".activity.DrawSnakingDirectionsRouteActivity"
+            android:label="@string/activity_draw_snaking_directions_route_title" />
+        <activity
+            android:name=".activity.MapThreeStereoscopicNavigationActivity"
+            android:label="@string/activity_map_3d_navigation_title" />
+        <activity
+            android:name=".activity.MapThreeStereoscpicSwitchLightActivity"
+            android:label="@string/activity_map_switch_light_title" />
+        <activity
+            android:name=".activity.DataVisualizationListActivity"
+            android:label="@string/activity_data_visualization" />
+        <activity
+            android:name=".activity.DataVisualizationPoiActivity"
+            android:label="@string/activity_data_visualization_poi_title" />
+        <activity
+            android:name=".activity.DataVisualizationPopulationActivity"
+            android:label="@string/activity_data_visualization_population_title" />
+        <activity
+            android:name=".activity.DataVisualizationChinaAirlineActivity"
+            android:label="@string/activity_data_visualization_china_airline_title" />
+        <activity
+            android:name=".activity.MapQueryByServiceActivity"
+            android:label="@string/activity_map_query_service_poi_title" />
+        <activity
+            android:name=".activity.MapRouteListActivity"
+            android:label="@string/activity_map_route_title" />
+        <activity
+            android:name=".activity.MapRouteSimpleActivity"
+            android:label="@string/activity_map_route_simple_title"></activity>
+    </application>
+
+</manifest>

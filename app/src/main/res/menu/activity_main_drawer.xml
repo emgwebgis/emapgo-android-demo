@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_demo"
+            android:title="eMapgoDemo" />
+        <item
+            android:id="@+id/nav_hello_emg"
+            android:title="Hello EmapgoMap" />
+        <item
+            android:id="@+id/nav_map_draw"
+            android:title="@string/activity_draw_title" />
+        <item
+            android:id="@+id/nav_map_component"
+            android:title="@string/activity_map_component_title" />
+        <item
+            android:id="@+id/nav_map_event"
+            android:title="@string/activity_map_event_title" />
+        <item
+            android:id="@+id/nav_map_camera"
+            android:title="@string/activity_map_camera_title" />
+        <item
+            android:id="@+id/nav_map_runtime"
+            android:title="@string/activity_runtime_styling_title" />
+        <item
+            android:id="@+id/nav_data_visualization"
+            android:title="@string/activity_data_visualization" />
+        <item
+            android:id="@+id/nav_map_3d"
+            android:title="@string/activity_map_3d_title" />
+        <item
+            android:id="@+id/nav_map_location"
+            android:title="@string/activity_map_location_title" />
+        <item
+            android:id="@+id/nav_map_poi"
+            android:title="@string/activity_map_poi_title" />
+        <item
+            android:id="@+id/nav_map_route"
+            android:title="@string/activity_map_route_title" />
+        <item
+            android:id="@+id/nav_map_style"
+            android:title="@string/activity_map_style_title" />
+    </group>
+
+
+    <item android:title="Navigation Example">
+        <menu>
+            <item
+                android:id="@+id/nav_simple_navigation"
+                android:title="Simple Navigation" />
+
+        </menu>
+    </item>
+
+
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="分享" />
+            <item
+                android:id="@+id/nav_setting"
+                android:title="配置Demo" />
+        </menu>
+    </item>
+
+</menu>

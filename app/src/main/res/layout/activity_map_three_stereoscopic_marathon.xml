@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.emapgo.android.demo.activity.MapThreeStereoscopicMarathonActivity">
+    <com.emapgo.mapsdk.maps.MapView
+        android:id="@+id/emgMapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:emg_cameraTargetLat="33.334915"
+        app:emg_cameraTargetLng="-118.335074"
+        app:emg_styleUrl="@string/emg_style_satellite"
+        app:emg_cameraTilt="55.8873"
+        app:emg_cameraZoom="12.692151"/>
+
+</android.support.constraint.ConstraintLayout>

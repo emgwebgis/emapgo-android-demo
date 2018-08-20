@@ -1,0 +1,213 @@
+<resources>
+    <string name="app_name">eMapgoMap Examples</string>
+    <string name="emg_token">pk.eyJ1IjoiYmVuNjIyIiwiYSI6ImNqZWh6MngxeTBqdW0zM21vM3ltbzdiYXUifQ.tks6bw7Z9f-43ArXzXPXcw</string>
+    <!--POI检索等服务需要-->
+    <string name="key"></string>
+    <string name="secret"></string>
+
+    <string name="title_activity_main">eMapgo Demo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="activity_nav_main_title">eMapgoMapSDK</string>
+    <string name="activity_nav_examples">Android Examples</string>
+    <string name="activity_nav_url">www.emapgo.com.cn</string>
+    <string name="activity_title_name">Hello EmapgoMap</string>
+
+    <string name="activity_marker_title">在地图中添加标注</string>
+    <string name="activity_draw_title">在地图中绘制</string>
+    <string name="activity_map_component_title">地图UI组件</string>
+    <string name="activity_map_event_title">地图事件交互</string>
+    <string name="activity_map_camera_title">Camera</string>
+    <string name="activity_runtime_styling_title">Runtime Styling</string>
+    <string name="activity_data_visualization">数据可视化</string>
+    <string name="activity_map_3d_title">3D</string>
+    <string name="activity_map_location_title">地图定位</string>
+    <string name="activity_map_poi_title">在地图中检索</string>
+    <string name="activity_map_route_title">路线规划</string>
+    <string name="activity_map_style_title">eMapgo Style</string>
+
+    <!--Start Setting-->
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_title_route_service_name">路线规划服务接口</string>
+    <string name="pref_default_route_service_name">http://115.29.96.67:5000/</string>
+
+    <string name="pref_title_emapgo_service_name">POI检索、经纬度查询等服务接口</string>
+    <string name="pref_default_emapgo_service_name">http://lcs.emapgo.com.cn/</string>
+
+    <string name="pref_header_navigation">导航配置</string>
+    <string name="pref_header_map">地图配置(适用于全范围Demo)</string>
+
+    <string name="pref_map_style_urls">设置地图瓦片数据源</string>
+    <string-array name="pref_source_list_titles">
+        <item>eMapgo Source（tiles.emapgo.cn）</item>
+        <item>eMapgo Source（wz.map.emapgo.com.cn）</item>
+    </string-array>
+    <string-array name="pref_source_list_values">
+        <item>http://tiles.emapgo.cn/styles/outdoor/style.json</item>
+        <item>http://wz.map.emapgo.com.cn/wz/cj3ncscha0000dwcs4x57cz8e.json</item>
+    </string-array>
+
+    <string name="pref_title_auto_navigation">是否启用模拟导航</string>
+    <!--End Setting-->
+
+    <string name="activity_add_marker_title">在地图中添加Marker</string>
+    <string name="activity_add_marker_description">使用eMapgoMap SDK提供的API在地图中添加Marker标记。</string>
+
+    <string name="activity_remove_marker_title">删除已添加的Marker</string>
+    <string name="activity_remove_marker_description">使用eMapgoMap SDK提供的API在地图中删除Marker标记。</string>
+
+    <string name="activity_marker_click_title">为Marker添加单机事件</string>
+    <string name="activity_marker_click_description">为已添加的的Marker设置单机监听事件</string>
+
+    <string name="activity_marker_info_window_title">为Marker添加信息窗口</string>
+    <string name="activity_marker_info_window_description">使用eMapgoMap SDK提供的默认信息窗口以及使用开发者自定义布局处理信息窗口</string>
+
+    <string name="activity_draw_line_title">在地图中绘制线</string>
+    <string name="activity_draw_line_description">使用eMapgoMap SDK提供的API在地图中绘制线。</string>
+
+    <string name="activity_draw_polygon_title">在地图中绘制多边形</string>
+    <string name="activity_draw_polygon_description">使用eMapgoMap SDK提供的API在地图中绘制多边形。</string>
+
+    <string name="activity_draw_line_geojson_title">使用GeoJSON在地图中绘制线</string>
+    <string name="activity_draw_line_gson_description">使用eMapgoMap SDK提供的API在地图中绘制线。</string>
+
+    <string name="activity_draw_marker_following_title">点平滑移动</string>
+    <string name="activity_draw_marker_following_description">根据输入的关键点和时间参数，实现点的平滑移动效果。</string>
+
+    <string name="activity_draw_snaking_directions_route_title">Snaking Directions</string>
+    <string name="activity_draw_snaking_directions_route_description">根据输入的起点和终点实现画线的效果</string>
+
+    <string name="activity_runtime_hillshade_layer_title">添加山体阴影图层</string>
+    <string name="activity_runtime_hillshade_layer_description">使用RasterDemSource、HillshadeLayer添加山体阴影</string>
+
+    <string name="activity_runtime_wms_title">在地图中添加WMS数据</string>
+    <string name="activity_runtime_wms_description">使用RasterSource、RasterLayer在地图中添加WMS数据图层</string>
+
+    <string name="activity_runtime_image_title">在地图中添加Image</string>
+    <string name="activity_runtime_image_description">使用ImageSource、RasterLayer在地图中添加图片</string>
+
+    <string name="activity_runtime_image_time_title">模拟雷达图像</string>
+    <string name="activity_runtime_image_time_description">...</string>
+
+    <string name="activity_runtime_fill_layer_title">使用FillLayer</string>
+    <string name="activity_runtime_fill_layer_description">使用FillLayer在地图中绘制封闭性几何图案。</string>
+
+    <string name="activity_runtime_background_layer_title">使用BackgroundLayer</string>
+    <string name="activity_runtime_background_layer_description">使用BackgroundLayer在地图中添加背景图案或颜色。</string>
+
+    <string name="activity_runtime_line_layer_title">使用LineLayer</string>
+    <string name="activity_runtime_line_layer_description">使用LineLayer在地图中添加线条图层。</string>
+
+    <string name="activity_runtime_symbol_layer_title">使用SymbolLayer</string>
+    <string name="activity_runtime_symbol_layer_description">使用SymbolLayer在地图中添加符号</string>
+
+    <string name="activity_runtime_heatmap_layer_title">使用HeatmapLayer</string>
+    <string name="activity_runtime_heatmap_layer_description">使用HeatmapLayer在地图中添加热成像</string>
+
+    <string name="activity_runtime_clusters_title">点聚合</string>
+    <string name="activity_runtime_clusters_description">使用eMapgo在地图中实现点聚合功能</string>
+
+    <string name="activity_runtime_color_switcher_title">更改建筑颜色</string>
+    <string name="activity_runtime_color_switcher_description">使用eMapgo提供的Runtime Styling可以修改底图的建筑以及水的颜色等。</string>
+
+    <string name="activity_runtime_zoom_color_title">根据缩放比例更改颜色</string>
+    <string name="activity_runtime_zoom_color_description">使用eMapgo对图层缩放比例更改颜色</string>
+
+    <string name="activity_runtime_black_map_title">夜晚模式</string>
+    <string name="activity_runtime_black_map_description">...</string>
+
+    <string name="activity_runtime_inset_map_title">画中画模式</string>
+    <string name="activity_runtime_inset_map_description">...</string>
+
+    <string name="activity_map_component_logo_title">使用MapView提供的Logo</string>
+    <string name="activity_map_component_logo_description">使用eMapgo Map提供的API在地图中控制Logo的位置、展示与否。</string>
+
+    <string-array name="layer_spinner_array">
+        <item>Water</item>
+        <item>Building</item>
+    </string-array>
+
+    <string-array name="gravity_arrays">
+        <item>top</item>
+        <item>botom</item>
+        <item>left</item>
+        <item>right</item>
+        <item>center_vertical</item>
+        <item>fill_vertical</item>
+        <item>center_horizontal</item>
+        <item>fill_horizontal</item>
+        <item>center</item>
+        <item>fill</item>
+        <item>clip_vertical</item>
+        <item>clip_horizontal</item>
+        <item>start</item>
+        <item>end</item>
+    </string-array>
+
+    <string name="activity_map_component_zoom_title">使用MapView提供的缩放按钮</string>
+    <string name="activity_map_component_zoom_description">使用eMapgo Map提供的API在地图中控制Zoom缩放组件是否可用</string>
+
+    <string name="activity_map_component_compass_title">使用MapView提供的指南针组件</string>
+    <string name="activity_map_component_compass_description">使用eMapgo Map提供的API在地图中控制指南针位置、边距、指南针资源、是否可用。</string>
+
+    <string name="activity_map_component_scale_title">使用MapView提供的比例尺</string>
+    <string name="activity_map_component_scale_description">使用eMapgo Map提供的API在地图中控制比例尺位置、边距、是否可用。</string>
+
+    <string name="activity_map_event_gestures_title">地图手势</string>
+    <string name="activity_map_event_gestures_description">使用eMapgo Map提供的API控制手势在地图中是否可用。</string>
+
+    <string name="activity_map_camera_move_title">使用Camera移动地图</string>
+    <string name="activity_map_camera_move_description">利用eMapgo Map提供的Camera API可以控制地图移动到想要到达的目的地，并且支持飞行动画进行移动。</string>
+
+    <string name="activity_map_camera_bounds_title">限制Camera可视区域</string>
+    <string name="activity_map_camera_bounds_description">利用eMapgo Map提供的Camera API可以限制用户在指定的区域内移动Camera。</string>
+
+    <string name="activity_map_location_simple_title">Simple Location</string>
+    <string name="activity_map_location_simple_description">使用eMapgo提供的定位SDK可以帮助您的应用实现高精度定位。</string>
+
+    <string name="activity_map_location_layer_mode_title">使用LayerMode</string>
+    <string name="activity_map_location_layer_mode_description">eMapgo定位SDK可以通过配置指定不同的定位模式。</string>
+
+    <string name="activity_map_location_model_title">使用不同的定位模式</string>
+    <string name="activity_map_location_model_description">eMapgo定位SDK支持多种定位模式低电量、高精度等。</string>
+
+    <string name="activity_map_query_feature_title">获取地图中的Feature</string>
+    <string name="activity_map_query_feature_description">使用eMapgo提供的API在地图中获取瓦片数据源中的Feature</string>
+
+    <string name="activity_map_query_local_poi_title">在地图中查询POI</string>
+    <string name="activity_map_query_local_poi_description">在本地地图瓦片数据中查询POI</string>
+
+    <string name="activity_map_query_service_poi_title">使用eMapgo提供的服务查询POI</string>
+    <string name="activity_map_query_service_poi_description">eMapgo为开发者提供了支持海量POI查询的服务接口</string>
+
+    <string name="activity_map_3d_indoor_title">调整光线位置和颜色</string>
+    <string name="activity_map_3d_indoor_description">改变建筑物上的光线的位置和颜色</string>
+
+    <string name="activity_map_3d_marathon_title">使用GeoJSON数据设置拉伸高度</string>
+    <string name="activity_map_3d_marathon_description">使用数据驱动的样式和GeoJSON数据来设置挤压的高度</string>
+
+    <string name="activity_map_3d_population_density_title">基于矢量数据显示3D建筑高度</string>
+    <string name="activity_map_3d_population_density_description">使用导入的矢量数据设置3D建筑物拉伸的高度</string>
+
+    <string name="activity_map_3d_navigation_title">模拟3D导航</string>
+    <string name="activity_map_3d_navigation_description">...</string>
+
+    <string name="activity_map_switch_light_title">更改光照</string>
+    <string name="activity_map_switch_light_description">...</string>
+
+    <string name="activity_data_visualization_poi_title">北京区域酒店热度可视化</string>
+    <string name="activity_data_visualization_poi_description">...</string>
+
+    <string name="activity_data_visualization_population_title">中国人口分布</string>
+    <string name="activity_data_visualization_population_description">...</string>
+
+    <string name="activity_data_visualization_china_airline_title">北京热门航线分布</string>
+    <string name="activity_data_visualization_china_airline_description">...</string>
+
+    <string name="activity_map_route_simple_title">使用eMapgo提供的服务进行路线规划</string>
+    <string name="activity_map_route_simple_description">...</string>
+
+</resources>

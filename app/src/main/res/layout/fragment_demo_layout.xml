@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.emapgo.mapsdk.maps.MapView
+        android:id="@+id/emgMapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:emg_uiCompassDrawable="@mipmap/emg_example_compass_logo"
+        app:emg_uiCompassGravity="left"
+        app:emg_uiCompassMarginLeft="10dp"
+        app:emg_uiCompassMarginTop="60dp" />
+
+    <TextView
+        android:id="@+id/id_search"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/emg_example_search_shape"
+        android:drawableLeft="@mipmap/emg_example_ulog"
+        android:drawablePadding="10dp"
+        android:elevation="3dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="查找地点、公交、地铁"
+        android:textSize="14sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:visibility="gone"
+        android:id="@+id/fab_location_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/emg_example_location"
+        android:tint="@android:color/white"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="mini"
+        app:layout_constraintTop_toTopOf="@+id/id_bottom_sheet_layout"/>
+
+    <include
+        android:id="@+id/id_bottom_sheet_layout"
+        layout="@layout/include_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/bottom_sheet_behavior"/>
+</android.support.design.widget.CoordinatorLayout>

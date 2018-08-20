@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.emapgo.mapsdk:emapgo-android-core-1.0.2">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/emapgo-android-core-1.0.2.aar/df87dbfa176b57e5523409ca6a59c534/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/emapgo-android-core-1.0.2.aar/df87dbfa176b57e5523409ca6a59c534/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-android-core/1.0.2/c66f8359160662c90119ef6a5ce68eef6c62d971/emapgo-android-core-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

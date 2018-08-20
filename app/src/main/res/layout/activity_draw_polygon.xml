@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.emapgo.android.demo.activity.DrawLineFromGeoJSONActivity">
+
+    <com.emapgo.mapsdk.maps.MapView
+        android:id="@+id/emgMapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:emg_cameraTargetLat="39.94054100025837"
+        app:emg_cameraTargetLng="116.38057708740236"
+        app:emg_cameraZoom="11">>
+    </com.emapgo.mapsdk.maps.MapView>
+</android.support.constraint.ConstraintLayout>

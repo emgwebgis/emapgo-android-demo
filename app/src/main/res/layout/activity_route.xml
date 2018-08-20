@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.emapgo.mapsdk.maps.MapView
+            android:id="@+id/id_mapview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:emg_cameraTargetLat="39.8288916490182"
+            app:emg_cameraTargetLng="116.29995507512434"></com.emapgo.mapsdk.maps.MapView>
+
+        <LinearLayout
+            android:id="@+id/id_route_header_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <include layout="@layout/layout_directions_header" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/id_route_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        app:behavior_peekHeight="100dp"
+        app:layout_behavior="@string/bottom_sheet_behavior">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_above="@+id/id_route_navigation_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/id_directions_program_rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal">
+                    <ProgressBar
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:text="路线规划失败,点我重试"/>
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1sp"
+                    android:background="#b4b4b4"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/id_directions_step_rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+            <Button
+                android:id="@+id/id_route_navigation_btn"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:text="开始导航"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:background="#3878f0"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

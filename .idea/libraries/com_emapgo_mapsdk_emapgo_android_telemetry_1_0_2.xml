@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.emapgo.mapsdk:emapgo-android-telemetry-1.0.2">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/emapgo-android-telemetry-1.0.2.aar/b0d1e26dd14cd6bce72f799976e926fb/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/emapgo-android-telemetry-1.0.2.aar/b0d1e26dd14cd6bce72f799976e926fb/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-android-telemetry/1.0.2/b0c9e356041016a17a47195155c369d313c45a4f/emapgo-android-telemetry-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

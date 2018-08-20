@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/id_search_edt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/emg_example_search_shape"
+        android:drawableLeft="@mipmap/emg_example_ulog"
+        android:drawablePadding="10dp"
+        android:elevation="3dp"
+        android:gravity="center_vertical"
+        android:hint="查找地点、公交、地铁"
+        android:paddingLeft="10dp"
+        android:textSize="14sp" />
+
+
+    <com.emapgo.mapsdk.maps.MapView
+        android:id="@+id/emgMapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:emg_cameraTargetLat="39.8288916490182"
+        app:emg_cameraTargetLng="116.29995507512434"
+        app:emg_cameraZoom="9"></com.emapgo.mapsdk.maps.MapView>
+</RelativeLayout>

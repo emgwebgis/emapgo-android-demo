@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:gravity="center"
+    android:paddingLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+    <com.emapgo.mapsdk.search.route.maneuver.ManeuverView
+        android:id="@+id/id_route_step_icon"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        />
+    <LinearLayout
+        android:layout_toRightOf="@+id/id_route_step_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left|center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/id_route_step_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="方案一"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#2e2e2e"/>
+        <TextView
+            android:id="@+id/id_route_step_distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.5公里"
+            android:textSize="14sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#d9d9d9"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

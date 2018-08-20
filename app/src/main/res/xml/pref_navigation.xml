@@ -1,0 +1,7 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="false"
+        android:key="notifications_new_message_ringtone"
+        android:title="e" />
+</PreferenceScreen>

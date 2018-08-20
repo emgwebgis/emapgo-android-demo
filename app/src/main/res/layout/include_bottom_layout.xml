@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_to_target"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/emg_example_bottom_shape"
+        android:elevation="20dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/id_poi_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="80dp"
+            android:maxLines="1"
+            android:text="地点信息获取中..."
+            android:textColor="#0f0f0f"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/id_poi_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_poi_name"
+            android:drawableLeft="@mipmap/emg_example_dis"
+            android:gravity="center_vertical"
+            android:textColor="#414141"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/id_poi_nearby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/id_poi_distance"
+            android:layout_below="@+id/id_poi_name"
+            android:layout_marginRight="50dp"
+            android:layout_toRightOf="@+id/id_poi_distance"
+            android:drawableLeft="@mipmap/emg_example_dis"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="..."
+            android:textColor="#414141"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/id_to_target"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_fiber_manual_record_black_24dp"
+        android:elevation="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_directions_bus_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="到这去"
+            android:textColor="#ffffff"
+            android:textSize="13sp" />
+    </LinearLayout>
+</RelativeLayout>

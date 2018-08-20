@@ -1,0 +1,15 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.emapgo.android.demo.activity.SettingsActivity$MapPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/pref_header_map" />
+
+    <header
+        android:fragment="com.emapgo.android.demo.activity.SettingsActivity$NavigationPreferences"
+        android:icon="@drawable/ic_menu_send"
+        android:title="@string/pref_header_navigation" />
+
+</preference-headers>
