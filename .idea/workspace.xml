@@ -150,31 +150,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RouteActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/RouteActivity.java">
+      <file leaf-file-name="activity_map_other_api_map_center.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_map_other_api_map_center.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="697" column="36" lean-forward="false" selection-start-line="697" selection-start-column="36" selection-end-line="697" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RuntimeWMSActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/RuntimeWMSActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_runtime_wms.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_runtime_wms.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="188">
+              <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -183,41 +163,106 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <file leaf-file-name="MapOtherAPIMapCenterActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapOtherAPIMapCenterActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="153">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapThreeStereoscopicNavigationActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapThreeStereoscopicNavigationActivity.java">
+      <file leaf-file-name="activity_main_drawer.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="350" column="65" lean-forward="false" selection-start-line="350" selection-start-column="65" selection-end-line="350" selection-end-column="65" />
-              <folding />
+            <state relative-caret-position="54">
+              <caret line="35" column="65" lean-forward="false" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+              <folding>
+                <element signature="e#522#551#0" expanded="false" />
+                <element signature="e#643#681#0" expanded="false" />
+                <element signature="e#769#803#0" expanded="false" />
+                <element signature="e#892#927#0" expanded="false" />
+                <element signature="e#1017#1057#0" expanded="false" />
+                <element signature="e#1154#1191#0" expanded="false" />
+                <element signature="e#1276#1307#0" expanded="false" />
+                <element signature="e#1398#1435#0" expanded="false" />
+                <element signature="e#1521#1553#0" expanded="false" />
+                <element signature="e#1641#1675#0" expanded="false" />
+              </folding>
             </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="73" lean-forward="true" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+            <state relative-caret-position="192">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RuntimeClustersActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/RuntimeClustersActivity.java">
+      <file leaf-file-name="MapOtherAPIListActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapOtherAPIListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="150" column="65" lean-forward="false" selection-start-line="150" selection-start-column="65" selection-end-line="150" selection-end-column="65" />
+            <state relative-caret-position="186">
+              <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_map_other_apidistance.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_map_other_apidistance.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapOtherAPIDistanceActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapOtherAPIDistanceActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="52" column="46" lean-forward="false" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RuntimeLineLayerActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/RuntimeLineLayerActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="192" column="72" lean-forward="false" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="72" />
+              <folding>
+                <element signature="method#drawLine2#0;class#RuntimeLineLayerActivity#0" expanded="false" />
+                <element signature="method#drawLine3#0;class#RuntimeLineLayerActivity#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="206" column="56" lean-forward="false" selection-start-line="206" selection-start-column="56" selection-end-line="206" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -226,31 +271,11 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloEmgMapActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/HelloEmgMapActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="55" column="85" lean-forward="false" selection-start-line="55" selection-start-column="85" selection-end-line="55" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RotateGestureDetector.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-android-gestures/1.0.0/1282c46b60695dc178910515204cb7373620111b/emapgo-android-gestures-1.0.0-sources.jar!/com/emapgo/android/gestures/RotateGestureDetector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3558">
-              <caret line="189" column="14" lean-forward="false" selection-start-line="189" selection-start-column="14" selection-end-line="189" selection-end-column="14" />
+            <state relative-caret-position="689">
+              <caret line="170" column="61" lean-forward="false" selection-start-line="170" selection-start-column="61" selection-end-line="170" selection-end-column="61" />
               <folding>
-                <element signature="e#5871#5872#0" expanded="true" />
-                <element signature="e#5917#5918#0" expanded="true" />
+                <element signature="e#3322#3353#0" expanded="false" />
+                <element signature="e#3355#3387#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -2127,15 +2152,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_draw_snaking_directions_route.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/DrawSnakingDirectionsRouteActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapThreeStereoscopicMarathonActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_map_three_stereoscpic_switch_light.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapThreeStereoscpicSwitchLightActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/emg_user_puck_icon.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_map_three_stereoscopic_navigation.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_data_visualization_list.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/RuntimeBlackMapActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_data_visualization_poi.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/DataVisualizationPoiActivity.java" />
@@ -2163,7 +2180,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapRouteListActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapRouteSimpleActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_map_route.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/AddMarkerActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/CustomInfoWindowMarkerActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/DataVisualizationChinaAirlineActivity.java" />
@@ -2173,16 +2189,25 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/RouteActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapThreeStereoscopicNavigationActivity.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/RuntimeClustersActivity.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapEventGetMapCenterActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/HelloEmgMapActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_map_other_apilist.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_map_other_api_map_center.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapOtherAPIMapCenterActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_map_other_apidistance.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapOtherAPIDistanceActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapOtherAPIListActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="25" />
+    <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="979" />
   </component>
@@ -2201,8 +2226,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2301,6 +2327,122 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2369,8 +2511,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2386,7 +2527,7 @@
     <property name="DEBUGGABLE_PROCESS" value="com.emapgo.android.demo" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Auto" />
-    <property name="SearchEverywhereHistoryKey" value="TelemetrySer&#9;PSI&#9;JAVA://com.emapgo.android.telemetry.TelemetryService&#10;Convert&#9;PSI&#9;JAVA://com.emapgo.android.core.location.LocationConvert&#10;color&#9;FILE&#9;file:///Users/ben/project/android/demo/app/src/main/res/values/colors.xml&#10;FillEx&#9;PSI&#9;JAVA://com.emapgo.mapsdk.style.layers.FillExtrusionLayer&#10;GeoCoding&#9;PSI&#9;JAVA://com.emapgo.api.geocoding.v5.GeocodingService&#10;ScaleBarView&#9;FILE&#9;jar:///Users/ben/.gradle/caches/transforms-1/files-1.1/emapgo-android-sdk-1.0.3-vector.aar/d62cb41b428f02cd1878c0711ee85064/jars/classes.jar!/com/emapgo/mapsdk/maps/widgets/ScaleBarView.class&#10;ScaleBarVIew&#9;FILE&#9;jar:///Users/ben/.gradle/caches/transforms-1/files-1.1/emapgo-android-sdk-1.0.3-vector.aar/d62cb41b428f02cd1878c0711ee85064/jars/classes.jar!/com/emapgo/mapsdk/maps/widgets/scalebar/ScaleBarView.class&#10;Emg&#9;FILE&#9;jar:///Users/ben/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-android-sdk/1.0.3-vector/19e340c7827312148dfa7a163b2e0fde3789818e/emapgo-android-sdk-1.0.3-vector-sources.jar!/com/emapgo/mapsdk/maps/EmgMap.java&#10;Marker&#9;PSI&#9;JAVA://com.emapgo.android.demo.activity.MarkerClickListenerActivity&#10;HttpReq&#9;PSI&#9;JAVA://com.emapgo.mapsdk.http.HTTPRequest&#10;AndroidLoc&#9;PSI&#9;JAVA://com.emapgo.android.core.location.AndroidLocationEngine&#10;Android&#9;FILE&#9;jar:///Users/ben/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-android-core/1.0.0/41995b7b9d41915d8455cfeb4b239e97d7f8512a/emapgo-android-core-1.0.0-sources.jar!/com/emapgo/android/core/location/AndroidLocationEngine.java&#10;GoogleLocationEng&#9;PSI&#9;JAVA://com.emapgo.android.core.location.GoogleLocationEngineFactory&#10;AndroidLocationEngineFac&#9;PSI&#9;JAVA://com.emapgo.android.core.location.AndroidLocationEngineFactory&#10;HttpRequest&#9;PSI&#9;JAVA://com.emapgo.mapsdk.http.HTTPRequest&#10;PaintPropertyValue&#9;FILE&#9;jar:///Users/ben/.gradle/caches/transforms-1/files-1.1/emapgo-android-sdk-1.0.2-vector.aar/8832a2d61c48fb89043a0ab0a9783ea6/jars/classes.jar!/com/emapgo/mapsdk/style/layers/PaintPropertyValue.class&#10;MapOp&#9;PSI&#9;JAVA://com.emapgo.mapsdk.maps.EmgMapOptions&#10;ThemeSw&#9;PSI&#9;JAVA://com.emapgo.services.android.navigation.ui.v5.ThemeSwitcher&#10;PoiIn&#9;PSI&#9;JAVA://com.emapgo.mapsdk.search.poi.PoiInfo&#10;EmgCons&#9;PSI&#9;JAVA://com.emapgo.mapsdk.constants.EmgConstants&#10;Style&#9;PSI&#9;JAVA://android.support.design.R.style&#10;Style.java&#9;FILE&#9;jar:///Users/ben/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-android-sdk/1.0.2-vector/3c71ae8b686e82efff04ecd8a5d6a111a8fa8e1c/emapgo-android-sdk-1.0.2-vector-sources.jar!/com/emapgo/mapsdk/constants/Style.java" />
+    <property name="SearchEverywhereHistoryKey" value="Style.java&#9;FILE&#9;jar:///Users/ben/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-android-sdk/1.0.4-vector/63fefb71a514866449a92764ecb394aefe851a7b/emapgo-android-sdk-1.0.4-vector-sources.jar!/com/emapgo/mapsdk/constants/Style.java&#10;TelemetrySer&#9;PSI&#9;JAVA://com.emapgo.android.telemetry.TelemetryService&#10;Convert&#9;PSI&#9;JAVA://com.emapgo.android.core.location.LocationConvert&#10;color&#9;FILE&#9;file:///Users/ben/project/android/demo/app/src/main/res/values/colors.xml&#10;FillEx&#9;PSI&#9;JAVA://com.emapgo.mapsdk.style.layers.FillExtrusionLayer&#10;GeoCoding&#9;PSI&#9;JAVA://com.emapgo.api.geocoding.v5.GeocodingService&#10;ScaleBarView&#9;FILE&#9;jar:///Users/ben/.gradle/caches/transforms-1/files-1.1/emapgo-android-sdk-1.0.3-vector.aar/d62cb41b428f02cd1878c0711ee85064/jars/classes.jar!/com/emapgo/mapsdk/maps/widgets/ScaleBarView.class&#10;ScaleBarVIew&#9;FILE&#9;jar:///Users/ben/.gradle/caches/transforms-1/files-1.1/emapgo-android-sdk-1.0.3-vector.aar/d62cb41b428f02cd1878c0711ee85064/jars/classes.jar!/com/emapgo/mapsdk/maps/widgets/scalebar/ScaleBarView.class&#10;Emg&#9;FILE&#9;jar:///Users/ben/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-android-sdk/1.0.3-vector/19e340c7827312148dfa7a163b2e0fde3789818e/emapgo-android-sdk-1.0.3-vector-sources.jar!/com/emapgo/mapsdk/maps/EmgMap.java&#10;Marker&#9;PSI&#9;JAVA://com.emapgo.android.demo.activity.MarkerClickListenerActivity&#10;HttpReq&#9;PSI&#9;JAVA://com.emapgo.mapsdk.http.HTTPRequest&#10;AndroidLoc&#9;PSI&#9;JAVA://com.emapgo.android.core.location.AndroidLocationEngine&#10;Android&#9;FILE&#9;jar:///Users/ben/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-android-core/1.0.0/41995b7b9d41915d8455cfeb4b239e97d7f8512a/emapgo-android-core-1.0.0-sources.jar!/com/emapgo/android/core/location/AndroidLocationEngine.java&#10;GoogleLocationEng&#9;PSI&#9;JAVA://com.emapgo.android.core.location.GoogleLocationEngineFactory&#10;AndroidLocationEngineFac&#9;PSI&#9;JAVA://com.emapgo.android.core.location.AndroidLocationEngineFactory&#10;HttpRequest&#9;PSI&#9;JAVA://com.emapgo.mapsdk.http.HTTPRequest&#10;PaintPropertyValue&#9;FILE&#9;jar:///Users/ben/.gradle/caches/transforms-1/files-1.1/emapgo-android-sdk-1.0.2-vector.aar/8832a2d61c48fb89043a0ab0a9783ea6/jars/classes.jar!/com/emapgo/mapsdk/style/layers/PaintPropertyValue.class&#10;MapOp&#9;PSI&#9;JAVA://com.emapgo.mapsdk.maps.EmgMapOptions&#10;ThemeSw&#9;PSI&#9;JAVA://com.emapgo.services.android.navigation.ui.v5.ThemeSwitcher&#10;PoiIn&#9;PSI&#9;JAVA://com.emapgo.mapsdk.search.poi.PoiInfo&#10;EmgCons&#9;PSI&#9;JAVA://com.emapgo.mapsdk.constants.EmgConstants&#10;Style&#9;PSI&#9;JAVA://android.support.design.R.style" />
     <property name="ScreenshotViewer.SavePath" value="$PROJECT_DIR$/screens" />
     <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
     <property name="ExportApk.Flavors" value="" />
@@ -2396,12 +2537,8 @@
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/app/src/main" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/geojson" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
     </key>
     <key name="android.template.packageName">
       <recent name="com.emapgo.android.demo.activity" />
@@ -2416,8 +2553,12 @@
       <recent name="com.emapgo.android.demo.adapter" />
       <recent name="com.emapgo.android.demo.module" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/geojson" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2592,7 +2733,8 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1534747955711" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1534821091038" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2639,7 +2781,8 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1534747955711" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1534821091038" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2821,7 +2964,8 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1534747955712" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1534821091040" />
       </method>
     </configuration>
     <list size="6">
@@ -2887,7 +3031,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="979" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="979" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13626125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2898,16 +3042,16 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36681715" sideWeight="0.5127932" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.074324325" sideWeight="0.4824094" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21055438" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5619369" sideWeight="0.4824094" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24436937" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17905405" sideWeight="0.50692964" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1677928" sideWeight="0.50692964" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6846847" sideWeight="0.49307036" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3033049" sideWeight="0.6745495" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23187633" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38063064" sideWeight="0.67803836" order="3" side_tool="false" content_ui="tabs" />
@@ -2920,7 +3064,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21055438" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2999,113 +3143,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-android-telemetry/1.0.1/1321805926625ff9e9aa1447e240823f86f07273/emapgo-android-telemetry-1.0.1-sources.jar!/com/emapgo/android/telemetry/EmgTelemetry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="213" column="3" lean-forward="false" selection-start-line="195" selection-start-column="27" selection-end-line="213" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-android-telemetry/1.0.1/1321805926625ff9e9aa1447e240823f86f07273/emapgo-android-telemetry-1.0.1-sources.jar!/com/emapgo/android/telemetry/MapEventFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-326">
-          <caret line="89" column="17" lean-forward="false" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_map_query_by_service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/DrawListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="107" column="0" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="107" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_map_event_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_map_route_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapRouteSimpleActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_marker.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_map_route.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="44" column="59" lean-forward="false" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapRouteListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-android-telemetry/1.0.1/1321805926625ff9e9aa1447e240823f86f07273/emapgo-android-telemetry-1.0.1-sources.jar!/com/emapgo/android/telemetry/TelemetryService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
@@ -3172,23 +3209,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/RuntimeLineLayerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#drawLine2#0;class#RuntimeLineLayerActivity#0" expanded="false" />
-            <element signature="method#drawLine3#0;class#RuntimeLineLayerActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/emapgo-android-sdk-1.0.3-vector.aar/d62cb41b428f02cd1878c0711ee85064/jars/classes.jar!/com/emapgo/mapsdk/style/layers/SymbolLayer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3203,7 +3227,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-800">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3211,7 +3234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3219,7 +3241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-824">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3235,7 +3256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3243,7 +3263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1664">
           <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3251,7 +3270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1088">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3277,20 +3295,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_runtime_wms.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/RuntimeWMSActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="528">
           <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
           <folding />
         </state>
@@ -3298,9 +3305,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/RouteActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
+        <state relative-caret-position="14448">
           <caret line="697" column="36" lean-forward="false" selection-start-line="697" selection-start-column="36" selection-end-line="697" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#18582#18583#0" expanded="false" />
+            <element signature="e#18637#18638#0" expanded="false" />
+            <element signature="e#29323#29324#0" expanded="false" />
+            <element signature="e#29367#29368#0" expanded="false" />
+            <element signature="e#29950#29951#0" expanded="false" />
+            <element signature="e#29979#29980#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3349,67 +3364,237 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="237">
             <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapThreeStereoscopicNavigationActivity.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-android-gestures/1.0.0/1282c46b60695dc178910515204cb7373620111b/emapgo-android-gestures-1.0.0-sources.jar!/com/emapgo/android/gestures/RotateGestureDetector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="350" column="65" lean-forward="false" selection-start-line="350" selection-start-column="65" selection-end-line="350" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="4128">
+          <caret line="189" column="14" lean-forward="false" selection-start-line="189" selection-start-column="14" selection-end-line="189" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#882#883#0" expanded="false" />
+            <element signature="e#911#912#0" expanded="false" />
+            <element signature="e#2524#2525#0" expanded="false" />
+            <element signature="e#2549#2550#0" expanded="false" />
+            <element signature="e#4995#4996#0" expanded="false" />
+            <element signature="e#5027#5028#0" expanded="false" />
+            <element signature="e#5284#5285#0" expanded="false" />
+            <element signature="e#5315#5316#0" expanded="false" />
+            <element signature="e#5561#5562#0" expanded="false" />
+            <element signature="e#5592#5593#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/RuntimeClustersActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
+        <state relative-caret-position="2616">
           <caret line="150" column="65" lean-forward="false" selection-start-line="150" selection-start-column="65" selection-end-line="150" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="46" column="76" lean-forward="false" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_runtime_wms.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapThreeStereoscopicNavigationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5040">
+          <caret line="287" column="26" lean-forward="false" selection-start-line="287" selection-start-column="26" selection-end-line="287" selection-end-column="26" />
+          <folding>
+            <element signature="e#11967#11968#0" expanded="false" />
+            <element signature="e#11999#12000#0" expanded="false" />
+            <element signature="e#12116#12117#0" expanded="false" />
+            <element signature="e#12146#12147#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-android-sdk/1.0.4-vector/63fefb71a514866449a92764ecb394aefe851a7b/emapgo-android-sdk-1.0.4-vector-sources.jar!/com/emapgo/mapsdk/constants/Style.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/DrawListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="107" column="0" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_marker.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_map_event_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_map_other_apilist.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="35" column="65" lean-forward="false" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+          <folding>
+            <element signature="e#522#551#0" expanded="false" />
+            <element signature="e#643#681#0" expanded="false" />
+            <element signature="e#769#803#0" expanded="false" />
+            <element signature="e#892#927#0" expanded="false" />
+            <element signature="e#1017#1057#0" expanded="false" />
+            <element signature="e#1154#1191#0" expanded="false" />
+            <element signature="e#1276#1307#0" expanded="false" />
+            <element signature="e#1398#1435#0" expanded="false" />
+            <element signature="e#1521#1553#0" expanded="false" />
+            <element signature="e#1641#1675#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/HelloEmgMapActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="107" column="0" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="107" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-android-gestures/1.0.0/1282c46b60695dc178910515204cb7373620111b/emapgo-android-gestures-1.0.0-sources.jar!/com/emapgo/android/gestures/RotateGestureDetector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3558">
-          <caret line="189" column="14" lean-forward="false" selection-start-line="189" selection-start-column="14" selection-end-line="189" selection-end-column="14" />
+        <state relative-caret-position="689">
+          <caret line="170" column="61" lean-forward="false" selection-start-line="170" selection-start-column="61" selection-end-line="170" selection-end-column="61" />
           <folding>
-            <element signature="e#5871#5872#0" expanded="true" />
-            <element signature="e#5917#5918#0" expanded="true" />
+            <element signature="e#3322#3353#0" expanded="false" />
+            <element signature="e#3355#3387#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/HelloEmgMapActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_map_other_api_map_center.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapOtherAPIMapCenterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="206" column="56" lean-forward="false" selection-start-line="206" selection-start-column="56" selection-end-line="206" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/RuntimeLineLayerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="55" column="85" lean-forward="false" selection-start-line="55" selection-start-column="85" selection-end-line="55" selection-end-column="85" />
+          <caret line="192" column="72" lean-forward="false" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="72" />
+          <folding>
+            <element signature="method#drawLine2#0;class#RuntimeLineLayerActivity#0" expanded="false" />
+            <element signature="method#drawLine3#0;class#RuntimeLineLayerActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_map_other_apidistance.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapOtherAPIDistanceActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="52" column="46" lean-forward="false" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/emapgo/android/demo/activity/MapOtherAPIListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="73" lean-forward="true" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+        <state relative-caret-position="192">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>

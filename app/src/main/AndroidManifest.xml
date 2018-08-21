@@ -19,6 +19,7 @@
             android:theme="@style/NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -195,7 +196,16 @@
             android:label="@string/activity_map_route_title" />
         <activity
             android:name=".activity.MapRouteSimpleActivity"
-            android:label="@string/activity_map_route_simple_title"></activity>
+            android:label="@string/activity_map_route_simple_title" />
+        <activity
+            android:name=".activity.MapOtherAPIMapCenterActivity"
+            android:label="@string/activity_map_other_api_map_center_title" />
+        <activity
+            android:name=".activity.MapOtherAPIListActivity"
+            android:label="@string/activity_map_other" />
+        <activity
+            android:name=".activity.MapOtherAPIDistanceActivity"
+            android:label="@string/activity_map_other_api_distance_title"></activity>
     </application>
 
 </manifest>

@@ -14,6 +14,7 @@ import android.view.View;
 import com.emapgo.android.demo.MyApplication;
 import com.emapgo.android.demo.R;
 import com.emapgo.android.demo.util.PreferenceManager;
+import com.emapgo.android.gestures.RotateGestureDetector;
 import com.emapgo.android.gestures.StandardScaleGestureDetector;
 import com.emapgo.mapsdk.geometry.LatLng;
 import com.emapgo.mapsdk.maps.EmgMap;
@@ -52,25 +53,6 @@ public class HelloEmgMapActivity extends AppCompatActivity implements OnMapReady
 
     @Override
     public void onMapReady(EmgMap emgMap) {
-        //更改地图旋转角度
-        emgMap.getGesturesManager().getRotateGestureDetector().setAngleThreshold(50);
-        //监听地图缩放事件，当地图缩放时禁用旋转，缩放结束后旋转可用
-        emgMap.addOnScaleListener(new EmgMap.OnScaleListener() {
-            @Override
-            public void onScaleBegin(StandardScaleGestureDetector detector) {
-                emgMap.getUiSettings().setRotateGesturesEnabled(false);
-            }
-
-            @Override
-            public void onScale(StandardScaleGestureDetector detector) {
-
-            }
-
-            @Override
-            public void onScaleEnd(StandardScaleGestureDetector detector) {
-                emgMap.getUiSettings().setRotateGesturesEnabled(true);
-            }
-        });
     }
 
     @Override

@@ -28,6 +28,7 @@
     <string name="activity_map_poi_title">在地图中检索</string>
     <string name="activity_map_route_title">路线规划</string>
     <string name="activity_map_style_title">eMapgo Style</string>
+    <string name="activity_map_other">其他</string>
 
     <!--Start Setting-->
     <string name="title_activity_settings">Settings</string>
@@ -209,5 +210,12 @@
 
     <string name="activity_map_route_simple_title">使用eMapgo提供的服务进行路线规划</string>
     <string name="activity_map_route_simple_description">...</string>
+
+    <string name="activity_map_other_api_map_center_title">获取地图中心点</string>
+    <string name="activity_map_other_api_map_center_description">...</string>
+
+    <string name="activity_map_other_api_distance_title">距离测算</string>
+    <string name="activity_map_other_api_distance_description">...</string>
+
 
 </resources>
