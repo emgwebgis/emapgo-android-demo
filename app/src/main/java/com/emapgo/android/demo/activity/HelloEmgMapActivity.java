@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -20,6 +21,8 @@ import com.emapgo.mapsdk.geometry.LatLng;
 import com.emapgo.mapsdk.maps.EmgMap;
 import com.emapgo.mapsdk.maps.MapView;
 import com.emapgo.mapsdk.maps.OnMapReadyCallback;
+import com.emapgo.mapsdk.search.area.AreaSearchOption;
+import com.emapgo.mapsdk.search.location.LocationSearch;
 import com.emapgo.mapsdk.search.poi.PoiResult;
 import com.emapgo.mapsdk.search.poi.PoiSearch;
 import com.emapgo.mapsdk.search.poi.PoiSearchOption;
@@ -53,6 +56,18 @@ public class HelloEmgMapActivity extends AppCompatActivity implements OnMapReady
 
     @Override
     public void onMapReady(EmgMap emgMap) {
+        emgMap.getUiSettings().setLogoGravity(Gravity.RIGHT|Gravity.BOTTOM); //右下角
+        //emgMap.getUiSettings().setLogoMargins(-20,0,0,0);
+
+        emgMap.getUiSettings().setAttributionGravity(Gravity.LEFT|Gravity.BOTTOM);
+        emgMap.getUiSettings().setAttributionMargins(0,0,0,0);
+
+        emgMap.addOnMapClickListener(new EmgMap.OnMapClickListener() {
+            @Override
+            public void onMapClick(@NonNull LatLng latLng) {
+
+            }
+        });
     }
 
     @Override

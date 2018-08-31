@@ -205,7 +205,22 @@
             android:label="@string/activity_map_other" />
         <activity
             android:name=".activity.MapOtherAPIDistanceActivity"
-            android:label="@string/activity_map_other_api_distance_title"></activity>
+            android:label="@string/activity_map_other_api_distance_title" />
+        <activity
+            android:name=".activity.MapStyleListActivity"
+            android:label="@string/activity_map_style_title" />
+        <activity android:name=".activity.MapStyleNomralActivity"
+            android:label="@string/activity_map_style_nomral_title"></activity>
+        <activity android:name=".activity.MapStyleDarkActivity"
+            android:label="@string/activity_map_style_dark_title"></activity>
+        <activity android:name=".activity.MapStyleSummerActivity"
+            android:label="@string/activity_map_style_summer_title"></activity>
+        <activity android:name=".activity.MapStyleRainActivity"
+            android:label="@string/activity_map_style_rain_title"></activity>
+        <activity android:name=".activity.MapStyleWinterActivity"
+            android:label="@string/activity_map_style_winter_title"></activity>
+        <activity android:name=".activity.MapStyleConciseActivity"
+            android:label="@string/activity_map_style_concise_title"></activity>
     </application>
 
 </manifest>

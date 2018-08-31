@@ -55,11 +55,11 @@ public class MapQueryListActivity extends AppCompatActivity implements BaseQuick
                 new Intent(this,MapQueryLocalPoiActivity.class), R.mipmap.emg_example_query_local
         ));
 
-        datas.add(new ExampleItemModel(
+/*        datas.add(new ExampleItemModel(
                 R.string.activity_map_query_service_poi_title,
                 R.string.activity_map_query_service_poi_description,
                 new Intent(this,MapQueryByServiceActivity.class), R.mipmap.emg_example_query_local
-        ));
+        ));*/
 
         mAdapter.setNewData(datas);
     }

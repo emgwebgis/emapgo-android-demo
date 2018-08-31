@@ -10,6 +10,6 @@
         android:layout_height="match_parent"
         app:emg_cameraTargetLat="39.8288916490182"
         app:emg_cameraTargetLng="116.29995507512434"
-        app:emg_cameraZoom="14">
+        app:emg_cameraZoom="10.5">
     </com.emapgo.mapsdk.maps.MapView>
 </android.support.constraint.ConstraintLayout>

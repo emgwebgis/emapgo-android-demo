@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.emapgo.mapsdk:emapgo-java-services:1.0.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-java-services/1.0.0/ca05c597edbd57400e67c01016f9682f2f89f207/emapgo-java-services-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-java-services/1.0.0/bfca059d2bce955553b3cb9346448220f7a6738a/emapgo-java-services-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

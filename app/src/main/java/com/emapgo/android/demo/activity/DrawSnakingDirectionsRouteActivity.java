@@ -74,23 +74,29 @@ public class DrawSnakingDirectionsRouteActivity extends AppCompatActivity implem
         mapView.onCreate(savedInstanceState);
         mapView.setStyleUrl(PreferenceManager.getMapStyle(MyApplication.getAppContext()));
         mapView.getMapAsync(this);
+        mapView.addOnMapChangedListener(new MapView.OnMapChangedListener() {
+            @Override
+            public void onMapChanged(int status) {
+                if (status == MapView.DID_FINISH_LOADING_MAP) {
+                    initDrivingRouteSourceAndLayer();
+                    final Point origin = Point.fromLngLat(116.29995507512434, 39.8288916490182);
+                    // final Point destination = Point.fromLngLat(104.0185546875, 30.86451022625836);
+                    final Point destination = Point.fromLngLat(116.36856079101562, 39.85137985826863);
+
+                    emgMap.addMarker(new MarkerOptions()
+                            .position(new LatLng(origin.latitude(), origin.longitude())));
+                    emgMap.addMarker(new MarkerOptions()
+                            .position(new LatLng(destination.latitude(), destination.longitude())));
+                    getDirectionsRoute(origin, destination);
+                }
+            }
+        });
     }
 
     @Override
     public void onMapReady(EmgMap emgMap) {
         this.emgMap = emgMap;
-        initDrivingRouteSourceAndLayer();
-        final Point origin = Point.fromLngLat(116.29995507512434, 39.8288916490182);
-        // final Point destination = Point.fromLngLat(104.0185546875, 30.86451022625836);
-        final Point destination = Point.fromLngLat(116.36856079101562, 39.85137985826863);
-
-        emgMap.addMarker(new MarkerOptions()
-                .position(new LatLng(origin.latitude(), origin.longitude())));
-        emgMap.addMarker(new MarkerOptions()
-                .position(new LatLng(destination.latitude(), destination.longitude())));
         MapStyleUtil.darkStyle(emgMap);
-        getDirectionsRoute(origin, destination);
-
 
     }
 

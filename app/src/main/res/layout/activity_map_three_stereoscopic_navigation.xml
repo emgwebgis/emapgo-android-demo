@@ -9,8 +9,8 @@
         android:id="@+id/emgMapView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:emg_cameraTargetLat="31.238404645918607"
-        app:emg_cameraTargetLng="121.50419371121467"
+        app:emg_cameraTargetLat="39.99999029725046"
+        app:emg_cameraTargetLng="116.47863609926776"
         app:emg_cameraZoom="15"></com.emapgo.mapsdk.maps.MapView>
 
     <Switch

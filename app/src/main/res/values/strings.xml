@@ -217,5 +217,23 @@
     <string name="activity_map_other_api_distance_title">距离测算</string>
     <string name="activity_map_other_api_distance_description">...</string>
 
+    <string name="activity_map_style_nomral_title">使用eMapgo提供的默认地图样式</string>
+    <string name="activity_map_style_nomral_description">...</string>
+
+    <string name="activity_map_style_dark_title">夜间模式</string>
+    <string name="activity_map_style_dark_description">...</string>
+
+    <string name="activity_map_style_summer_title">炎炎夏日</string>
+    <string name="activity_map_style_summer_description">...</string>
+
+    <string name="activity_map_style_rain_title">梅雨的忧伤</string>
+    <string name="activity_map_style_rain_description">...</string>
+
+    <string name="activity_map_style_winter_title">淡淡的宁静</string>
+    <string name="activity_map_style_winter_description">...</string>
+
+    <string name="activity_map_style_concise_title">极致简约</string>
+    <string name="activity_map_style_concise_description">...</string>
+
 
 </resources>

@@ -16,6 +16,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.animation.LinearInterpolator;
 import android.widget.CompoundButton;
+import android.widget.Toast;
 
 import com.emapgo.android.demo.MyApplication;
 import com.emapgo.android.demo.R;
@@ -38,22 +39,15 @@ import com.emapgo.mapsdk.geometry.LatLng;
 import com.emapgo.mapsdk.maps.EmgMap;
 import com.emapgo.mapsdk.maps.MapView;
 import com.emapgo.mapsdk.maps.OnMapReadyCallback;
-import com.emapgo.mapsdk.plugins.building.BuildingPlugin;
 import com.emapgo.mapsdk.search.route.RouteSearch;
 import com.emapgo.mapsdk.search.route.RouteSearchOption;
-import com.emapgo.mapsdk.style.layers.FillExtrusionLayer;
-import com.emapgo.mapsdk.style.layers.Layer;
 import com.emapgo.mapsdk.style.layers.LineLayer;
 import com.emapgo.mapsdk.style.layers.PropertyFactory;
 import com.emapgo.mapsdk.style.layers.SymbolLayer;
-import com.emapgo.mapsdk.style.light.Light;
-import com.emapgo.mapsdk.style.light.Position;
 import com.emapgo.mapsdk.style.sources.GeoJsonSource;
-import com.emapgo.mapsdk.style.sources.Source;
 import com.emapgo.services.Constants;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import butterknife.ButterKnife;
@@ -96,7 +90,7 @@ public class MapThreeStereoscopicNavigationActivity extends AppCompatActivity im
         ButterKnife.bind(this);
         mapView = (MapView) findViewById(R.id.emgMapView);
         mapView.onCreate(savedInstanceState);
-        //mapView.setStyleUrl("http://192.168.11.148:10003/styles/outdoor_3Dbuilding/style.json");
+        mapView.setStyleUrl(PreferenceManager.getMapStyle(this));
         mapView.getMapAsync(this);
     }
 
@@ -108,8 +102,8 @@ public class MapThreeStereoscopicNavigationActivity extends AppCompatActivity im
 
     private void getRoute() {
         RouteSearchOption option = RouteSearchOption.builder()
-                .origin(Point.fromLngLat(121.50419371121467, 31.238404645918607))
-                .destination(Point.fromLngLat(121.51082499400633, 31.22532437267887))
+                .origin(Point.fromLngLat(116.47881684136803,40.00005325546488))
+                .destination(Point.fromLngLat(116.48550988919135,39.99544963224764))
                 .profile(RouteSearchOption.DRIVING)
                 .alternatives(true)
                 .overview("full")
@@ -140,7 +134,7 @@ public class MapThreeStereoscopicNavigationActivity extends AppCompatActivity im
 
             @Override
             public void onFailure(Call<DirectionsResponse> call, Throwable t) {
-
+                Toast.makeText(MapThreeStereoscopicNavigationActivity.this, "路线规划失败", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -210,6 +204,9 @@ public class MapThreeStereoscopicNavigationActivity extends AppCompatActivity im
                     markerAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
                         @Override
                         public void onAnimationUpdate(ValueAnimator animation) {
+                            if (isDestroyed() || emgMap == null) {
+                                return;
+                            }
                             LatLng animatedValue = (LatLng) animation.getAnimatedValue();
                             GeoJsonSource locationSource = emgMap.getSourceAs("location_source");
                             if (locationSource == null) {
@@ -326,7 +323,9 @@ public class MapThreeStereoscopicNavigationActivity extends AppCompatActivity im
     protected void onStop() {
         super.onStop();
         mapView.onStop();
-        handler.removeCallbacks(runnable);
+        if (handler != null) {
+            handler.removeCallbacks(runnable);
+        }
     }
 
     @Override

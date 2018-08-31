@@ -25,6 +25,7 @@ import com.emapgo.android.demo.activity.MapEventListActivity;
 import com.emapgo.android.demo.activity.MapOtherAPIListActivity;
 import com.emapgo.android.demo.activity.MapQueryListActivity;
 import com.emapgo.android.demo.activity.MapRouteListActivity;
+import com.emapgo.android.demo.activity.MapStyleListActivity;
 import com.emapgo.android.demo.activity.MapThreeStereoscopicListActivity;
 import com.emapgo.android.demo.activity.RuntimeListActivity;
 import com.emapgo.android.demo.activity.SettingsActivity;
@@ -165,6 +166,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
             case R.id.nav_map_route:{
                 //startActivity(new Intent(this, MapRouteListActivity.class));
+                break;
+            }
+            case R.id.nav_map_style:{
+                startActivity(new Intent(this, MapStyleListActivity.class));
                 break;
             }
             case R.id.nav_map_other:{

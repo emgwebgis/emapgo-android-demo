@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.emapgo.mapsdk:emapgo-sdk-turf:1.0.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-sdk-turf/1.0.0/da9f5b191e13a0595b904de293105dedc838ff5a/emapgo-sdk-turf-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-sdk-turf/1.0.0/3e2d9b49ca247e34a8dec023be5d87c15e45beed/emapgo-sdk-turf-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

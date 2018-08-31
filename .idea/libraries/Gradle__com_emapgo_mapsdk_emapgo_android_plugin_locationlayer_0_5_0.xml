@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.emapgo.mapsdk:emapgo-android-plugin-locationlayer-0.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/emapgo-android-plugin-locationlayer-0.5.0.aar/5c661ab9c82fd4b61ef5f6ba8d65cf66/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/emapgo-android-plugin-locationlayer-0.5.0.aar/5c661ab9c82fd4b61ef5f6ba8d65cf66/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.emapgo.mapsdk/emapgo-android-plugin-locationlayer/0.5.0/2ac164fa751cd9af752d102597e59cece64e6304/emapgo-android-plugin-locationlayer-0.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

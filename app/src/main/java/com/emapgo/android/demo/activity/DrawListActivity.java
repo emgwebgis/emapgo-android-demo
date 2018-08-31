@@ -86,7 +86,7 @@ public class DrawListActivity  extends AppCompatActivity implements BaseQuickAda
         datas.add(new ExampleItemModel(
                 R.string.activity_draw_snaking_directions_route_title,
                 R.string.activity_draw_snaking_directions_route_description,
-                new Intent(this,DrawSnakingDirectionsRouteActivity.class), R.mipmap.emg_example_runtime_marker_following
+                new Intent(this,DrawSnakingDirectionsRouteActivity.class), R.mipmap.emg_example_draw_snaking
         ));
 
         mAdapter.setNewData(datas);

@@ -51,7 +51,7 @@ public class MapThreeStereoscopicListActivity extends AppCompatActivity implemen
                 R.string.activity_map_3d_navigation_title,
                 R.string.activity_map_3d_navigation_description,
                 new Intent(this, MapThreeStereoscopicNavigationActivity.class), R.mipmap.emg_example_three_stereoscopic_navigation
-        ));
+        ));/*
         datas.add(new ExampleItemModel(
                 R.string.activity_map_switch_light_title,
                 R.string.activity_map_switch_light_description,
@@ -61,7 +61,7 @@ public class MapThreeStereoscopicListActivity extends AppCompatActivity implemen
                 R.string.activity_map_3d_population_density_title,
                 R.string.activity_map_3d_population_density_description,
                 new Intent(this, MapThreeStereoscopicPopulationDensityActivity.class), R.mipmap.emg_example_3d_marathon
-        ));
+        ));*/
         datas.add(new ExampleItemModel(
                 R.string.activity_map_3d_indoor_title,
                 R.string.activity_map_3d_indoor_description,

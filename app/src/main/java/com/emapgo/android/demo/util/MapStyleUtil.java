@@ -4,6 +4,7 @@ import android.graphics.Color;
 import android.widget.ProgressBar;
 
 import com.emapgo.mapsdk.maps.EmgMap;
+import com.emapgo.mapsdk.style.layers.FillExtrusionLayer;
 import com.emapgo.mapsdk.style.layers.Layer;
 import com.emapgo.mapsdk.style.layers.PropertyFactory;
 import com.emapgo.mapsdk.style.layers.SymbolLayer;
@@ -45,6 +46,12 @@ public class MapStyleUtil {
                             PropertyFactory.textHaloWidth(1.5f));
                 }
 
+                if (layer instanceof FillExtrusionLayer) {
+                    ((FillExtrusionLayer) layer).withProperties(
+                            PropertyFactory.fillExtrusionColor("#323432")
+                    );
+                }
+
             }
         }
     }
@@ -82,6 +89,11 @@ public class MapStyleUtil {
                             PropertyFactory.visibility("none"));
                 }
 
+                if (layer instanceof FillExtrusionLayer) {
+                    ((FillExtrusionLayer) layer).withProperties(
+                            PropertyFactory.fillExtrusionColor("#4c586d")
+                    );
+                }
             }
         }
     }

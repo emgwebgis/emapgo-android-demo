@@ -18,8 +18,10 @@ import com.emapgo.mapsdk.constants.Style;
 import com.emapgo.mapsdk.maps.EmgMap;
 import com.emapgo.mapsdk.maps.MapView;
 import com.emapgo.mapsdk.maps.OnMapReadyCallback;
+import com.emapgo.mapsdk.style.layers.FillExtrusionLayer;
 import com.emapgo.mapsdk.style.layers.FillLayer;
 import com.emapgo.mapsdk.style.layers.Layer;
+import com.emapgo.mapsdk.style.layers.PropertyFactory;
 
 import java.util.List;
 
@@ -29,7 +31,7 @@ public class RuntimeColorSwitcherActivity extends AppCompatActivity {
     private MapView mapView;
     private EmgMap map;
     FillLayer water;
-    FillLayer building;
+    FillExtrusionLayer building;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,7 +82,7 @@ public class RuntimeColorSwitcherActivity extends AppCompatActivity {
                     );
                 } else if (building != null && layerPicker.getSelectedItem().equals("Building") && fromUser) {
                     building.setProperties(
-                            fillColor(Color.rgb(progress, greenSeekBar.getProgress(), blueSeekBar.getProgress()))
+                            PropertyFactory.fillExtrusionColor(Color.rgb(progress, greenSeekBar.getProgress(), blueSeekBar.getProgress()))
                     );
                 }
             }
@@ -105,7 +107,7 @@ public class RuntimeColorSwitcherActivity extends AppCompatActivity {
                     );
                 } else if (building != null && layerPicker.getSelectedItem().equals("Building") && fromUser) {
                     building.setProperties(
-                            fillColor(Color.rgb(progress, greenSeekBar.getProgress(), blueSeekBar.getProgress()))
+                            PropertyFactory.fillExtrusionColor(Color.rgb(progress, greenSeekBar.getProgress(), greenSeekBar.getProgress()))
                     );
                 }
             }
@@ -130,7 +132,7 @@ public class RuntimeColorSwitcherActivity extends AppCompatActivity {
                     );
                 } else if (building != null && layerPicker.getSelectedItem().equals("Building") && fromUser) {
                     building.setProperties(
-                            fillColor(Color.rgb(progress, greenSeekBar.getProgress(), blueSeekBar.getProgress()))
+                            PropertyFactory.fillExtrusionColor(Color.rgb(progress, greenSeekBar.getProgress(), blueSeekBar.getProgress()))
                     );
                 }
             }
@@ -153,7 +155,7 @@ public class RuntimeColorSwitcherActivity extends AppCompatActivity {
             public void onMapReady(EmgMap emgMap) {
                 map = emgMap;
                 water = (FillLayer) map.getLayer("china-river");
-                building = (FillLayer) map.getLayer("china-building");
+                building = (FillExtrusionLayer) map.getLayer("china-building");
 
             }
         });

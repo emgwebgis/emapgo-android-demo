@@ -146,7 +146,7 @@ public class MapDemoFragment extends Fragment implements OnMapReadyCallback, Loc
     public void onLocationChanged(Location location) {
         Log.e("MapDemoFragment", "onLocationChanged" );
         if (location != null) {
-            locationEngine.removeLocationEngineListener(this);
+            //locationEngine.removeLocationEngineListener(this);
             setCameraPosition(location);
         }
     }

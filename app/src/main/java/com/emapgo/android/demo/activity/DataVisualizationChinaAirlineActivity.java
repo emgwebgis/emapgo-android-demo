@@ -34,6 +34,7 @@ import com.emapgo.mapsdk.style.layers.CircleLayer;
 import com.emapgo.mapsdk.style.layers.LineLayer;
 import com.emapgo.mapsdk.style.layers.PropertyFactory;
 import com.emapgo.mapsdk.style.sources.GeoJsonSource;
+import com.emapgo.mapsdk.style.sources.Source;
 import com.emapgo.turf.TurfConstants;
 import com.emapgo.turf.TurfMeasurement;
 
@@ -435,6 +436,11 @@ public class DataVisualizationChinaAirlineActivity extends AppCompatActivity imp
             );
             emgMap.addLayer(airlineLayer);
 
+
+            Source your_source_id = emgMap.getSourceAs("your source id");
+            if (your_source_id != null) {
+                //add source
+            }
 
         }
 

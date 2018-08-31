@@ -35,6 +35,7 @@ import com.emapgo.android.core.location.LocationEnginePriority;
 import com.emapgo.android.core.location.LocationEngineProvider;
 import com.emapgo.android.core.permissions.PermissionsListener;
 import com.emapgo.android.core.permissions.PermissionsManager;
+import com.emapgo.android.demo.BuildConfig;
 import com.emapgo.android.demo.MyApplication;
 import com.emapgo.android.demo.R;
 import com.emapgo.android.demo.adapter.DirectionsProgramAdapter;
@@ -372,6 +373,8 @@ public class RouteActivity extends AppCompatActivity implements OnMapReadyCallba
                 mapRoute.removeRoute();
                 mapRoute.addRoutes(modifiedRoutes);
                 RouteActivity.this.directionsManeuverParseInfos = DirectionsManeuverParse.parseDirectionsManeuver(response.body());
+
+
 
                 //添加路线规划图层
                 changeRoute(0);

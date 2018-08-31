@@ -34,7 +34,7 @@ public class RuntimeWMSActivity extends AppCompatActivity implements OnMapReadyC
     public void onMapReady(EmgMap emgMap) {
         emgMap.setMaxZoomPreference(18);
         emgMap.setMinZoomPreference(14);
-        
+
         RasterSource wzHandXiMapSource = new RasterSource(
                 "wz_hand_xi",
                 new TileSet("tileset", "http://server.emapgo.com.cn/geoserver/wms?bbox={bbox-epsg-3857}&format=image/png&service=WMS&version=1.1.0&request=GetMap&srs=EPSG:3857&width=256&height=256&layers=wuzhen%3Awuzhenxi&TRANSPARENT=true"),
